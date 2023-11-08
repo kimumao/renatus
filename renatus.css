@@ -38,24 +38,16 @@ img{
 	grid-column: 2/4;
 }
 
-header{
-	position: relative;
-	margin-bottom: 5rem;
-}
 
 header video{
-	object-fit: cover;
-	object-position: center top;
-	opacity: var(--video-opacity);
 	max-width: 100%;
 	height: auto;
 }
 
-.header-text{
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+.parent{
+	width: 94vw;
+	margin: 0 auto 3rem;
+	display: grid;
+	gap: 1vw;
+	grid-template-columns: 46vw 46vw;
 }
