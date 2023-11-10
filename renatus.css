@@ -5,7 +5,25 @@ img{
 	height: auto;
 }
 
+h1{
+	text-align: center;
+	margin-top: 20vw;
+	font-size: 5vw;
+	color: #6a6a6a;
+}
 
+.youtube1{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.youtube2{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	margin-bottom: 10vw;
+}
 .members{
 	background-color:#c5cedb;
 }
